@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GiggleTech Privacy Policy</title>
+<style>body{max-width:760px;margin:64px auto;padding:0 24px;font:17px/1.7 system-ui;color:#172218;background:#f5f8f1}h1,h2{line-height:1.2}a{color:#28580b}</style>
+<h1>GiggleTech Privacy Policy</h1>
+<p>Last updated: 27 September 2026</p>
+<p><strong>Publisher completion required before publishing:</strong> insert your public publisher name and privacy contact email below, then host this page at a publicly accessible HTTPS address.</p>
+<h2>What the app does</h2>
+<p>GiggleTech for Android routes Open Sound Control (OSC) messages between a configured VRChat device and GiggleTech haptic hardware on your network.</p>
+<h2>Information handled on your device</h2>
+<p>The app stores device names, configured IP addresses, avatar parameter names and routing settings in private app storage. You can edit or remove devices in the app. Uninstalling the app or clearing its storage removes these settings. App-managed cloud backups and device-transfer backups are disabled.</p>
+<p>While routing or testing hardware, the app temporarily displays activity, motor levels and connection messages. Routing processes incoming OSC parameter values. Diagnostic logs are bounded, held in memory and discarded when the app process ends. Logs are not automatically sent to the publisher.</p>
+<h2>Network communication</h2>
+<p>The app uses UDP to receive OSC from your configured source and send motor commands to your configured hardware. Optional device-reachability results are sent to your configured VRChat address. OSCQuery uses local service discovery and a read-only HTTP service to advertise the phone's address, receive port and configured parameter names to devices on the network. Local OSC and discovery traffic is not encrypted; use a trusted network.</p>
+<p>The app contains no advertising, analytics, account system or cloud backend. The publisher does not receive your app configuration or OSC traffic through this app. No data is sold or shared with advertising services.</p>
+<h2>Permissions</h2>
+<p>Network permissions support OSC routing and service discovery. The connected-device foreground service, ongoing notification and wake lock keep a user-started routing session active. Notification permission lets the app show session status and a Stop action. The app does not request camera, microphone, contacts or location access.</p>
+<h2>Stopping and deleting</h2>
+<p>Tap Stop routing in the app or Stop all motors in its notification to end a session. Remove devices through Edit device, or clear the app's storage to delete all configuration. No online account exists to delete.</p>
+<h2>Contact</h2>
+<p>Publisher: <strong>[YOUR PUBLIC PUBLISHER NAME]</strong><br>Privacy contact: <strong>[YOUR SUPPORT EMAIL]</strong></p>
+</html>

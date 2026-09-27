@@ -1,0 +1,35 @@
+APP NAME
+GiggleTech
+
+SHORT DESCRIPTION
+Connect VRChat to GiggleTech haptics over Wi-Fi, directly from your phone.
+
+FULL DESCRIPTION
+Bring your VRChat interactions to life with GiggleTech for Android.
+
+Use your phone to route OSC from VRChat on Quest or PC to your GiggleTech Wi-Fi haptic devices. Keep your phone, VRChat device and hardware on the same network, add your device settings, and start routing.
+
+YOUR HAPTICS, YOUR SETTINGS
+Find GiggleTech hardware on your Wi-Fi and select a device to fill in its address. Add multiple devices with individual names, avatar parameters and power limits. Choose proximity-based output or velocity-sensitive haptics, with smoothing and pull-away controls.
+
+CONNECT WITH OSCQUERY
+Find VRChat on your network and advertise the router through OSCQuery. Manual UDP port configuration is also available.
+
+STAY IN CONTROL
+View incoming OSC activity and motor output levels, test each device with a short low-power pulse before connecting to VRChat, and stop routing from the app or its ongoing notification. Routing can continue with the screen off.
+
+LOCAL BY DESIGN
+No account, advertising, analytics or cloud service. Configuration stays on your phone, and communication happens between your configured network devices.
+
+REQUIRES COMPATIBLE HARDWARE
+GiggleTech Wi-Fi haptic hardware, an Android 8.0+ phone, and an OSC-enabled sender such as VRChat are required. This app does not use the phone's vibration motor. Network isolation, firewalls and battery-management settings may affect connectivity.
+
+Stop routing before disconnecting the network or powering off the phone. Hardware without a firmware watchdog may retain its last command if communication is interrupted.
+
+GiggleTech is not affiliated with VRChat or Meta.
+
+CATEGORY
+Tools
+
+RELEASE NOTES
+Device tests now work before starting the router or configuring VRChat. Each half-second test respects the hardware power cap, supports cancellation and sends repeated stop commands.
